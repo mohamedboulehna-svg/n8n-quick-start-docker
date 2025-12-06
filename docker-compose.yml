@@ -9,10 +9,11 @@ services:
     volumes:
       - n8n_data:/home/node/.n8n
     environment:
-      - WEBHOOK_URL=https://<your-domain>/
+      - WEBHOOK_URL=https://joaquin-unobverted-cogently.ngrok-free.dev
       - N8N_PORT=5678
     restart: unless-stopped
 
 volumes:
   n8n_data:
+
 
